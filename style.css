@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Rosario&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rosario", sans-serif;
+}
+
+.welcome-page {
+  width: 100wh;
+  height: 100vh;
+}
+.nav nav ul {
+  display: flex;
+}
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #222222;
+  font-family: "DM Sans";
+  font-size: 18px;
+  margin-right: 40px;
+}
+.wrap-img-nav {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #f3fbf8;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.wrap-img-nav img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-btn {
+  padding: 10px 23px;
+  background: #09a66d;
+  border-radius: 8px;
+  font-size: 18px;
+  height: 40px;
+  color: #ffffff;
+  border: none;
+}
+.nav-right {
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 50px 100px;
+}
+
+.centre {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-main {
+  height: calc(100vh - 150px);
+  background-color: #f3fbf8;
+  background-image: url(./pics/leaves.svg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.wel-text {
+  max-width: 52%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.wel-text h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+.wel-text p {
+  font-family: "DM Sans";
+  padding: 25px 60px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #555555;
+}
+.arr-wrap {
+  width: 170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background-color: #09a66d;
+  border-radius: 50%;
+}
+
+.wel-pic .wel-left img {
+  position: absolute;
+  width: 43%;
+  left: 150px;
+  bottom: 0;
+}
+
+.wel-right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 100px;
+  bottom: 20px;
+}
+.wel-right img {
+  margin-bottom: 30px;
+}
+
+/* BODY PART 1 */
+.body-part1 {
+  height: 100vh;
+  padding: 120px 100px;
+  background-color: burlywood;
+}
+.p1-text {
+  max-width: 671px;
+}
+.p1-text h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+.p1-text p {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  text-align: center;
+  padding: 20px 30px;
+}
