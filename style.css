@@ -126,24 +126,65 @@ a {
 
 /* BODY PART 1 */
 .body-part1 {
+  position: relative;
   height: 100vh;
-  padding: 120px 100px;
-  background-color: burlywood;
+  padding: 0 100px;
+  padding-top: 100px;
+}
+.p1Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .p1-text {
-  max-width: 671px;
+  max-width: 670px;
 }
 .p1-text h1 {
   font-weight: bold;
   font-size: 70px;
-  line-height: 90px;
   color: #222222;
 }
 .p1-text p {
   font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #555555;
-  text-align: center;
-  padding: 20px 30px;
+}
+.p1Left {
+  position: relative;
+}
+.p1Card {
+  max-width: 500px;
+  height: 160px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.p1Card:nth-child(2) {
+  background-color: #f3fbf8;
+}
+.c1wrap {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #f3fbf8;
+  border-radius: 50%;
+}
+
+.c1Text {
+  max-width: 270px;
+  margin-left: 20px;
+}
+.centre1 {
+  position: absolute;
+  left: 45%;
+}
+.vect {
+  position: absolute;
+  top: -20px;
+  right: 10px;
+  z-index: -1;
 }
