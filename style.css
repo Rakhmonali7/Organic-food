@@ -320,4 +320,28 @@ a {
 
 footer {
   background-color: #fcfefd;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+footer p {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #222222;
+}
+footer h4 {
+  font-family: "DM Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+  padding-bottom: 30px;
+}
+img {
+  margin-bottom: 30px;
+}
+footer .foot-div p {
+  padding: 15px 0;
 }
