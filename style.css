@@ -130,6 +130,7 @@ a {
   height: 100vh;
   padding: 0 100px;
   padding-top: 100px;
+  margin-bottom: 150px;
 }
 .p1Wrapper {
   display: flex;
@@ -187,4 +188,136 @@ a {
   top: -20px;
   right: 10px;
   z-index: -1;
+}
+
+/* PART 2 */
+
+.part2 {
+  height: 100vh;
+  background: rgba(9, 166, 109, 0.05);
+  padding: 88px 0 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.part2 .left2 {
+  margin-right: 50px;
+}
+.part2 .right2 .text2 h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+  padding-right: 50px;
+}
+.part2 .right2 .text2 p {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  padding: 20px 170px 20px 0;
+}
+.part2 .right2 .underText {
+  display: flex;
+  justify-content: space-between;
+}
+.part2 .right2 .underText .btn2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 70px;
+}
+
+/* PART 3*/
+.part3 {
+  height: 75vh;
+  display: flex;
+  align-items: flex-end;
+  gap: 100px;
+  margin: 100px 0 150px 150px;
+}
+.p3Left {
+  max-width: 70%;
+}
+.part3 .p3Left h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+.part3 .p3Left p {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+.part3 .p3Left h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  padding-top: 40px;
+}
+.part3 .p3Left .stars-arrow {
+  display: flex;
+}
+.stars-arrow {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.arr-wr {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.l-wr {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid rgb(185, 185, 185);
+}
+.r-wr {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #09a66d;
+}
+
+/* PART 4 */
+.part4 {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin: 160px 200px 100px 200px;
+}
+.part4 .right4 h3 {
+  width: 170px;
+  font-size: 18px;
+  color: #333333;
+  background-color: #f3fbf8;
+  border-radius: 50px;
+  text-align: center;
+}
+.part4 .right4 h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 90px;
+  color: #222222;
+}
+.part4 .right4 p {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  padding: 20px 160px 80px 0;
+}
+
+footer {
+  background-color: #fcfefd;
 }
